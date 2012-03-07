@@ -20,9 +20,9 @@ Those who are not familiar with Terminal:
 
 1. Download the program from [Downloads][2].
 
-2. Launch Terminal.app on you mac.
+2. Launch Terminal.app on you Mac.
 
-3. Drag and drop Images2Pen onto Terminal window from Downlaods folder.
+3. Drag and drop Images2Pen onto Terminal window from Downloads folder.
 
 4. Drag and drop the folder where images are located at.
 
