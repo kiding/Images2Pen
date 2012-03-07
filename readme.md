@@ -18,7 +18,7 @@ So I started to think, what if I can make Penultimate document on my Mac, with i
 
 Those who are not familiar with Terminal: 
 
-1. Download the program from [Downloads][2].
+1. Download the zip file from [Downloads][2], extract it.
 
 2. Launch Terminal.app on you Mac.
 
