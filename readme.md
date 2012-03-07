@@ -26,7 +26,7 @@ Those who are not familiar with Terminal:
 
 4. Drag and drop the folder where images are located at.
 
-5. Write down title you want to use.
+5. Type a title you want to use.
 
 6. Press return.
 
