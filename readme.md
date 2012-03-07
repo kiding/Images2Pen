@@ -20,7 +20,7 @@ Those who are not familiar with Terminal:
 
 1. Download the zip file from [Downloads][2], extract it.
 
-2. Launch Terminal.app on you Mac.
+2. Launch Terminal.app. It may be located at /Applications/Utilites.
 
 3. Drag and drop Images2Pen onto Terminal window from Downloads folder.
 
