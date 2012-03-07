@@ -14,7 +14,9 @@ So I started to think, what if I can make Penultimate document on my Mac, with i
 
 # How to Use the Program
 
-Those who don't care of what's going on behind the scenes: 
+	Images2Pen  "[imagesFolder]" "[title]"
+
+Those who are not familiar with Terminal: 
 
 1. Download the program from [Downloads][2].
 
@@ -29,8 +31,6 @@ Those who don't care of what's going on behind the scenes:
 6. Press return.
 
 7. A pen file will be generated in the images folder. Send it to your iPad with iTunes or Dropbox.
-
-	Images2Pen  "[imagesFolder]" "[title]"
 
 # File Format Structure
 
