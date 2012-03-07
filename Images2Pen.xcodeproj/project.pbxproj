@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2723D9150789FC00A6C3F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2723D8150789FC00A6C3F0 /* Foundation.framework */; };
+		DF2723E0150789FC00A6C3F0 /* Images2Pen.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF2723DF150789FC00A6C3F0 /* Images2Pen.1 */; };
+		DF2723E715078A1400A6C3F0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2723E615078A1400A6C3F0 /* AppKit.framework */; };
+		DF2723F51507981F00A6C3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723EA15078A4E00A6C3F0 /* main.m */; };
+		DF2723F61507981F00A6C3F0 /* ImagePageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723E915078A4E00A6C3F0 /* ImagePageLayer.m */; };
+		DF2723F71507981F00A6C3F0 /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723EC15078A4E00A6C3F0 /* Notebook.m */; };
+		DF2723F81507981F00A6C3F0 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723EE15078A4E00A6C3F0 /* Page.m */; };
+		DF2723F91507981F00A6C3F0 /* PageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723F015078A4E00A6C3F0 /* PageLayer.m */; };
+		DF2723FA1507981F00A6C3F0 /* PaperStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723F215078A4E00A6C3F0 /* PaperStyle.m */; };
+		DF2723FB1507981F00A6C3F0 /* PenMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2723F415078A4E00A6C3F0 /* PenMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF2723D2150789FC00A6C3F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DF2723E0150789FC00A6C3F0 /* Images2Pen.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF2723D4150789FC00A6C3F0 /* Images2Pen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Images2Pen; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2723D8150789FC00A6C3F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF2723DE150789FC00A6C3F0 /* Images2Pen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Images2Pen-Prefix.pch"; sourceTree = "<group>"; };
+		DF2723DF150789FC00A6C3F0 /* Images2Pen.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Images2Pen.1; sourceTree = "<group>"; };
+		DF2723E615078A1400A6C3F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF2723E815078A4E00A6C3F0 /* ImagePageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePageLayer.h; sourceTree = "<group>"; };
+		DF2723E915078A4E00A6C3F0 /* ImagePageLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePageLayer.m; sourceTree = "<group>"; };
+		DF2723EA15078A4E00A6C3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF2723EB15078A4E00A6C3F0 /* Notebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notebook.h; sourceTree = "<group>"; };
+		DF2723EC15078A4E00A6C3F0 /* Notebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Notebook.m; sourceTree = "<group>"; };
+		DF2723ED15078A4E00A6C3F0 /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		DF2723EE15078A4E00A6C3F0 /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		DF2723EF15078A4E00A6C3F0 /* PageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLayer.h; sourceTree = "<group>"; };
+		DF2723F015078A4E00A6C3F0 /* PageLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageLayer.m; sourceTree = "<group>"; };
+		DF2723F115078A4E00A6C3F0 /* PaperStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperStyle.h; sourceTree = "<group>"; };
+		DF2723F215078A4E00A6C3F0 /* PaperStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperStyle.m; sourceTree = "<group>"; };
+		DF2723F315078A4E00A6C3F0 /* PenMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenMaker.h; sourceTree = "<group>"; };
+		DF2723F415078A4E00A6C3F0 /* PenMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenMaker.m; sourceTree = "<group>"; };
+		DF2724001507996A00A6C3F0 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2723D1150789FC00A6C3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2723E715078A1400A6C3F0 /* AppKit.framework in Frameworks */,
+				DF2723D9150789FC00A6C3F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF2723C9150789FC00A6C3F0 = {
+			isa = PBXGroup;
+			children = (
+				DF2723DA150789FC00A6C3F0 /* Images2Pen */,
+				DF2723D7150789FC00A6C3F0 /* Frameworks */,
+				DF2723D5150789FC00A6C3F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2723D5150789FC00A6C3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2723D4150789FC00A6C3F0 /* Images2Pen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2723D7150789FC00A6C3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF2723E615078A1400A6C3F0 /* AppKit.framework */,
+				DF2723D8150789FC00A6C3F0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2723DA150789FC00A6C3F0 /* Images2Pen */ = {
+			isa = PBXGroup;
+			children = (
+				DF2724001507996A00A6C3F0 /* COPYING */,
+				DF2723EA15078A4E00A6C3F0 /* main.m */,
+				DF2723E815078A4E00A6C3F0 /* ImagePageLayer.h */,
+				DF2723E915078A4E00A6C3F0 /* ImagePageLayer.m */,
+				DF2723EB15078A4E00A6C3F0 /* Notebook.h */,
+				DF2723EC15078A4E00A6C3F0 /* Notebook.m */,
+				DF2723ED15078A4E00A6C3F0 /* Page.h */,
+				DF2723EE15078A4E00A6C3F0 /* Page.m */,
+				DF2723EF15078A4E00A6C3F0 /* PageLayer.h */,
+				DF2723F015078A4E00A6C3F0 /* PageLayer.m */,
+				DF2723F115078A4E00A6C3F0 /* PaperStyle.h */,
+				DF2723F215078A4E00A6C3F0 /* PaperStyle.m */,
+				DF2723F315078A4E00A6C3F0 /* PenMaker.h */,
+				DF2723F415078A4E00A6C3F0 /* PenMaker.m */,
+				DF2723DF150789FC00A6C3F0 /* Images2Pen.1 */,
+				DF2723DD150789FC00A6C3F0 /* Supporting Files */,
+			);
+			path = Images2Pen;
+			sourceTree = "<group>";
+		};
+		DF2723DD150789FC00A6C3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF2723DE150789FC00A6C3F0 /* Images2Pen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2723D3150789FC00A6C3F0 /* Images2Pen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2723E3150789FC00A6C3F0 /* Build configuration list for PBXNativeTarget "Images2Pen" */;
+			buildPhases = (
+				DF2723D0150789FC00A6C3F0 /* Sources */,
+				DF2723D1150789FC00A6C3F0 /* Frameworks */,
+				DF2723D2150789FC00A6C3F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Images2Pen;
+			productName = Images2Pen;
+			productReference = DF2723D4150789FC00A6C3F0 /* Images2Pen */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF2723CB150789FC00A6C3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DF2723CE150789FC00A6C3F0 /* Build configuration list for PBXProject "Images2Pen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF2723C9150789FC00A6C3F0;
+			productRefGroup = DF2723D5150789FC00A6C3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2723D3150789FC00A6C3F0 /* Images2Pen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2723D0150789FC00A6C3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2723F51507981F00A6C3F0 /* main.m in Sources */,
+				DF2723F61507981F00A6C3F0 /* ImagePageLayer.m in Sources */,
+				DF2723F71507981F00A6C3F0 /* Notebook.m in Sources */,
+				DF2723F81507981F00A6C3F0 /* Page.m in Sources */,
+				DF2723F91507981F00A6C3F0 /* PageLayer.m in Sources */,
+				DF2723FA1507981F00A6C3F0 /* PaperStyle.m in Sources */,
+				DF2723FB1507981F00A6C3F0 /* PenMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF2723E1150789FC00A6C3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF2723E2150789FC00A6C3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF2723E4150789FC00A6C3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Images2Pen/Images2Pen-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF2723E5150789FC00A6C3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Images2Pen/Images2Pen-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2723CE150789FC00A6C3F0 /* Build configuration list for PBXProject "Images2Pen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2723E1150789FC00A6C3F0 /* Debug */,
+				DF2723E2150789FC00A6C3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2723E3150789FC00A6C3F0 /* Build configuration list for PBXNativeTarget "Images2Pen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2723E4150789FC00A6C3F0 /* Debug */,
+				DF2723E5150789FC00A6C3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF2723CB150789FC00A6C3F0 /* Project object */;
+}
